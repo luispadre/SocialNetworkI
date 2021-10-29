@@ -8,19 +8,60 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-native-community/netinfo": "6.0.2",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/material-bottom-tabs": "^6.0.9",
     "@react-navigation/native": "^6.0.6",
     "@react-navigation/native-stack": "^6.2.5",
+    "@react-navigation/stack": "^6.0.11",
+    "axios": "^0.24.0",
+    "d3-shape": "^3.0.1",
     "expo": "~43.0.0",
+    "expo-app-loading": "~1.2.1",
+    "expo-av": "~10.1.2",
+    "expo-barcode-scanner": "~11.1.2",
+    "expo-camera": "~12.0.3",
+    "expo-checkbox": "~2.0.0",
+    "expo-clipboard": "~2.0.3",
+    "expo-facebook": "~12.0.3",
+    "expo-font": "~10.0.3",
+    "expo-google-sign-in": "~10.0.3",
+    "expo-image-picker": "~11.0.3",
+    "expo-notifications": "~0.13.3",
+    "expo-screen-capture": "^4.0.3",
+    "expo-sharing": "~10.0.3",
+    "expo-splash-screen": "~0.13.4",
     "expo-status-bar": "~1.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.2",
+    "react-native-appearance": "~0.3.3",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-paper": "^4.9.2",
+    "react-native-pose": "^0.9.1",
+    "react-native-reanimated": "~2.2.0",
     "react-native-safe-area-context": "3.3.2",
     "react-native-screens": "~3.8.0",
-    "react-native-web": "0.17.1"
+    "react-native-shared-element": "0.8.2",
+    "react-native-svg": "12.1.1",
+    "react-native-vector-icons": "^9.0.0",
+    "react-native-web": "0.17.1",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "@babel/runtime": "^7.11.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.7.0",
+    "eslint-config-react-native-wcandillon": "^3.3.3",
+    "jest": "^26.4.2",
+    "metro-react-native-babel-preset": "^0.63.0"
   },
-  "private": true
+  "private": true,
+  "jest": {
+    "preset": "react-native"
+  }
 }
