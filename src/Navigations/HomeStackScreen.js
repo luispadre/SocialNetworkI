@@ -14,8 +14,11 @@ export const HomeStackScreen = ({ navigation }) => (
       }
     }}>
       <HomeStack.Screen name="Home" component={Home} options={{
-        title: 'ElvisProject',
-      
+        title:"Hyandi",
+        headerStyle:{alignItems:'center',justifContent:'center'},
+        // header:()=>(<Ionicons name="add-circle" size={26} color="blue" style={{padding:12}}/>),
+        headerLeft:()=>(<Ionicons name="add-circle" size={26} color="red" style={{padding:12}}/>),
+        headerRight:()=>(<Ionicons name="add-circle" size={26} color="red" style={{padding:12}}/>),
       }} />
     </HomeStack.Navigator>
   );

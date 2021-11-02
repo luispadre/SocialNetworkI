@@ -8,6 +8,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@gorhom/bottom-sheet": "^4.1.3",
     "@notifee/react-native": "^3.0.4",
     "@react-native-async-storage/async-storage": "~1.15.9",
     "@react-native-community/netinfo": "6.0.2",
@@ -43,7 +44,6 @@
     "react-native": "0.64.2",
     "react-native-appearance": "~0.3.4",
     "react-native-gesture-handler": "~1.10.3",
-    "react-native-media-editor": "^0.0.1",
     "react-native-modalize": "^2.0.10",
     "react-native-modals": "^0.22.3",
     "react-native-music-control": "^1.4.0",
@@ -59,11 +59,9 @@
     "react-native-shared-element": "0.8.2",
     "react-native-svg": "12.1.1",
     "react-native-tab-view": "^3.1.1",
-    "react-native-track-player": "^2.1.2",
     "react-native-vector-icons": "^9.0.0",
-    "react-native-video-processing": "^2.0.0",
-    "react-native-videoeditorsdk": "^2.10.1",
     "react-native-web": "0.17.5",
+    "realm": "^10.9.1",
     "styled-components": "^5.3.3",
     "with-notifee": "^0.0.2",
     "yj-player": "^1.4.7"
